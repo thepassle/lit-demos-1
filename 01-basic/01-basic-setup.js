@@ -1,5 +1,5 @@
 // LitElement and html are the basic required imports
-import { LitElement, html, css} from 'lit-element';
+import { LitElement, html, css } from "lit-element";
 
 // Create a class definition for your component and extend the LitElement base class
 class BasicSetup extends LitElement {
@@ -18,4 +18,4 @@ class BasicSetup extends LitElement {
 
 // Register your element to custom elements registry, pass it a tag name and your class definition
 // The element name must always contain at least one dash
-customElements.define('basic-setup', BasicSetup);
+customElements.define("basic-setup", BasicSetup);
